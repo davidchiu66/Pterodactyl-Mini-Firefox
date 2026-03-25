@@ -33,6 +33,6 @@ jobs:
           context: .
           push: true
           # 这里已手动修正为全小写
-          tags: 
+          tags: |
             ghcr.io/${{ github.repository }}:${{ env.DATE_TAG }}
             ghcr.io/${{ github.repository }}:latest
